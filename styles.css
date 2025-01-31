@@ -1,0 +1,145 @@
+/* CSS for navigation bar color */
+.navbar {
+    background-color: #cc7eff !important; 
+    padding: 15px;
+}
+
+/*CSS for da navbar text */
+.navbar-brand {
+    font-family: Comic Sans MS;
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: white !important; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+.navbar-brand:hover {
+    color: #441044 !important; /*Pink? */
+}
+
+/* Navbar Logo Styling */
+.navbar-logo {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
+
+/* Aligning buttons */
+.navbar-nav {
+    display: flex;
+    flex-direction: row; /* Buttons in a row */
+}
+
+/*styles of da buttons on navbar*/
+.btn{
+    font-family: Comic Sans MS;
+}
+
+.custom-btn-fav {
+    background-color: #ff0080; /*Pink po opo */
+    color: white;
+    border: none;
+}
+
+.custom-btn-fav:hover {
+    background-color: #b9035e; /*Pink po opo */
+    color: white;
+    border: none;
+}
+
+.custom-btn-dislike {
+    background-color: #a100ff; /* Violet ata */
+    color: white;
+    border: none;
+}
+
+.custom-btn-dislike:hover {
+    background-color: #600297; /* Violet ata */
+    color: white;
+    border: none;
+}
+
+.custom-btn-hob {
+    background-color: #aa08fb; /* Indigo */
+    color: white;
+    border: none;
+}
+
+.custom-btn-hob:hover {
+    background-color: #54047b; /* Indigo */
+    color: white;
+    border: none;
+}
+.custom-btn-img {
+    background-color: #0044ff; /* Blue */
+    color: white;
+    border: none;
+}
+
+.custom-btn-img:hover {
+    background-color: #2c00cc; /* Blue */
+    color: white;
+    border: none;
+}
+
+/*style for body mismo*/
+
+body{
+    background-color: #eec7ff
+}
+
+.container {
+    background-color: rgb(234, 131, 255);
+    margin-top: 20px;        /* Put spacing before the container */
+    margin-left: auto;       
+    margin-right: auto;      
+    padding: 20px;           /* Adds padding inside the container */
+    width: 100%;             /* Ensures the container takes up the full width of the page */
+    box-sizing: border-box;  /* Ensures padding is included in the width */
+}
+
+.container h1, .container h2, .container p {
+    font-family: Comic Sans MS;
+    text-align: center;      /* Centers the text horizontally inside the container */
+    padding: 15px;           /* Adds padding to the text */
+}
+
+/*specific css for body mismo*/
+
+h1 {
+    color:#690069;
+}
+
+h2 {
+    color:#013293;
+}
+
+p{
+    color: #260038;
+}
+
+.img_set {
+    display: flex;
+    justify-content: center;  /* Horizontally center */
+    align-items: center;      /* Vertically center */
+    width: 20%;               /* Container takes up 20% of the parent width */
+    height: auto;            /* Full height of the viewport */
+    margin: 0 auto;           /* Center the container horizontally within the parent */
+}
+
+.bootstrap_content {
+    background-color: rgb(234, 131, 255);
+    margin-top: 20px;        /* Put spacing before the container */
+    margin-left: auto;       
+    margin-right: auto;      
+    padding: 20px;           /* Adds padding inside the container */
+    width: 100%;             /* Ensures the container takes up the full width of the page */
+    box-sizing: border-box;  /* Ensures padding is included in the width */
+}
+
+.bootstrap_content h1, .bootstrap_content h2, .bootstrap_content p {
+    font-family: Comic Sans MS;
+    text-align: center;      /* Centers the text horizontally inside the container */
+    padding: 15px;           /* Adds padding to the text */
+}
